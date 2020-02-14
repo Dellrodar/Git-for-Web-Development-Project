@@ -1,0 +1,111 @@
+1. Semantic HTML give clear and concise	meaning to HTML elements. This helps both web browsers and search engines find and identify information and pages better.
+
+2.HTML (Hyper Text Markup Language) is used to create web pages.
+
+3.An attribute is addition instructions for an element. It would be added with the tag of the element (Ex. <img src="https://unsplash.it/200/200"> src is the attribute and tells the element where to find the image.) 
+
+4.The <h1> tag is a heading tag. It should be used for the most important heading or main heading of the page.
+
+5.Two tags that come to mind are <img> (a src needs to be present) and the <a> tag (which requires an href attribute).
+
+6.
+
+7. An id is a unique identifier for a specific element.There can new be more than one of each id.
+
+8.You can add an id to any element, as long as the id is not used more than once and it unique.
+
+9.An id can only be used once per page.
+
+10.A class is an attribute used to identify a classname and add it to an element. This classname can then be used to manipulate an element via CSS or javascript.
+
+11.You add a class to any element.
+
+12.You can use a class any number of times to an element.
+
+13.The depends on the user and the browser. Some users may have their preferences set to open links in a new tab or window, some may not. You could use the target attribute to add a target="_blank" to the anchor tag, but that also can open vulnerabilities to your site. Alternatively, the user could right click and open the link in a new tag.
+
+14.The alt attribute is used to manipulate the text that the user sees on mouseover.
+
+15.It depends on What your using. In CSS it would look like .id {}, in Javascript you could use the getElementByID("id") sector, and in HTML you would use the id="id" attribute.
+
+16.A section is used to group similar items together on a page. It is semantic HTML and as such allows a to be better searched and translated by internet browsers and search engines. A div class is not semantic HTML. It is used to div and contain any items together. The default CSS is also different in a div vs a section.
+
+17.CSS (cascade Style Sheets) is used to give style to your website.
+
+18.We select elements as so:
+Example
+	h2 {
+		color:blue;
+	}
+This CSS code would select all elements with h2 tag. For custom elements (such as classes), we would be a . Before the id:
+
+	.first-section {
+		padding:20px;
+	}
+
+19.The difference between a class and an id is that an id is unique and can only be used once on a page. A class can be reused multiple time throughout a page. An example would be uses a class to change multiple sections in a webpage, but using an id on a specific object to change just that object. Since an id has more specificity, its CSS would be chosen over a class CSS.
+
+20.For custom elements (such as classes), we would be a . Before the id:
+
+	.first-section {
+		padding:20px;
+		width:90%;
+	}
+
+21.This would be how you select a p element with a class of human:
+	p.human {
+
+	}
+
+22.A parent child selector is a CSS code that will specifically target the child element of the parent selector. Each child can only have one parent, but each parent can have multiple children. You would use then when you need greater specificity in you HTML code. Example:
+	Body > p {
+		color:green;
+	}
+This would only target a p element that is a direct child of the body element. If another element is wrapped in a div or other tag, it will not be changed.
+
+23.The correct way would be:
+	.sidebar a:link {
+		color:blue;
+		}
+
+24.A pseudo selector is used to define a state of a element. For example 
+	a:hover {
+		background-color:white;
+	}
+
+25.We would use the line-height selector in CSS.
+
+26.We would use the letter-spacing selector in CSS.
+
+27.We would use text-transform selector in CSS. Uppercase for Uppercase lettering, lowercase for lowercase lettering, and capitalize for Capitalization. Example:
+
+		p {
+			text-transform:capitalize;
+		}
+
+28.you would use the attribute 
+		{
+			border:1px dotted black;
+		}
+
+29.you could use the universal selector. Example:
+		* {
+			margin:5px;
+		}
+
+30.you would use the /* and */ commands to write a comment. Example:
+	/* This is a test comment */
+
+31.You can see what folder your in by typing pwd in the command line. If you are editing a file such as a txt or cfg file, you should see the filename on the top of the screen.
+
+32.You can use the command ls to see a list of files/folders in the current directory. You can also used ls -a to see hidden files as well.
+
+33.you can remove a file using the rm command. You need to be careful, because there is no prompt and no confirmation. Once it has been removed it can not be restored.
+
+34.There is a variety of reasons to use version control. Some of those reasons are being able to branch and merge(after review), change history, backup, collaboration with teams, restoring previous versions, and traceability.
+
+35.You should commit when you are done working for the day or when you will be away from you desk for an extended period. It is also good to commit once you are finished with an feature or have completed your work.
+
+36.You would use git push .
+
+37.
