@@ -1,3 +1,5 @@
+https://codepen.io/Dellrodar/pen/OJVMxaE
+
 1. Semantic HTML give clear and concise	meaning to HTML elements. This helps both web browsers and search engines find and identify information and pages better.
 
 2.HTML (Hyper Text Markup Language) is used to create web pages.
