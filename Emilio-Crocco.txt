@@ -108,4 +108,30 @@ This would only target a p element that is a direct child of the body element. I
 
 36.You would use git push .
 
-37.
+37.The lambda git flow for assignments are:
+
+	a. Fork the assignment via GitHub
+	b. Add your TL and 5th day TL as collaborators
+	c. Pull the assignment from your repository
+	d. Create a new branch with your firstname-lastname
+	e. Complete the assignment using git add, commit, and push to save to your branch
+	f. Create a pull request so TLs can merge the assignment to your main branch. 
+
+Stretch questions:
+
+1. The difference between in-line elements and block-level elements are that in-line elements do not take up the whole page, does not cause a line break, and is bound by its opening and closing tag. A block-level element takes up the width of the page and can span one or multiple line, but has a break before and after the element.
+
+2. When an element is positioned absolutely the element is bound by the height and width defined. By default, a fixed element will span 100% of the width of the parent element. It will ignore margins and padding from other elements and position itself over them.
+
+3. To do this you can set an element to sticky positioning and setting the width to auto. We could alternatively use flex-box to allow for a fixed height but variable width.
+
+4. The examples of these elements are:
+	Display Block: <h1>, <header>, <p>
+	Display Inline: <a>, <strong>
+	Display Inline-block: <button>
+
+5. The box model is a visual representation for how things will be designed and displayed on a webpage. Since the shape of monitors are square (or a rectangle in the case of widescreens), we can use this figure out how or where we want our elements to display.This in turn make it easier to visualize how the page will look. Its called the box model because once the design is finished, it should look like small squares creating a larger square.
+
+Git Stretch goals:
+
+
