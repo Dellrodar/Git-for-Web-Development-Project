@@ -10,7 +10,7 @@ https://codepen.io/Dellrodar/pen/OJVMxaE
 
 5.Two tags that come to mind are <img> (a src needs to be present) and the <a> tag (which requires an href attribute).
 
-6.
+6. Things to put in the headers are: Nav bars, important headers, and titles.
 
 7. An id is a unique identifier for a specific element.There can new be more than one of each id.
 
